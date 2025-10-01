@@ -1,5 +1,4 @@
 package src.component;
-
 public class FreePlan implements AI {
      @Override
     public void accessFeatures() {

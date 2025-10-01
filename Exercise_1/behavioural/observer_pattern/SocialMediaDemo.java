@@ -5,7 +5,6 @@ import observer.AnalyticsModule;
 
 public class SocialMediaDemo {
     public static void main(String[] args) {
-        
         UserPost post = new UserPost();
 
         MobileApp mobileApp = new MobileApp();

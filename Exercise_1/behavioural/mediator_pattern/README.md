@@ -17,6 +17,15 @@ Instead of having each plugin directly communicate with every other plugin, a ce
 
 This example clearly demonstrates the Mediator pattern in a practical, real-world scenario where multiple components interact in a coordinated manner.
 
+**Key Demonstration in code**
+```java
+IDEPluginMediator mediator = new IDEPluginMediator();
+EditorPlugin editor = new EditorPlugin(mediator);
+DebuggerPlugin debugger = new DebuggerPlugin(mediator);
+GitPlugin git = new GitPlugin(mediator);
+BuildPlugin build = new BuildPlugin(mediator);
+TerminalPlugin terminal = new TerminalPlugin(mediator);
+```
 ## Output Screenshot
 <img width="547" height="237" alt="image" src="https://github.com/user-attachments/assets/bba896d5-d50f-4634-94a3-709693def6c4" />
 

@@ -1,5 +1,4 @@
 package exporter;
-
 public class DocxExporter implements DocumentExporter {
     @Override
     public void export(String content) {

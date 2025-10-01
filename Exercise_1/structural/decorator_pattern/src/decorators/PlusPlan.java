@@ -1,5 +1,4 @@
 package src.decorators;
-
 public class PlusPlan extends Decorator {
     public PlusPlan(src.component.AI ai) {
         super(ai);

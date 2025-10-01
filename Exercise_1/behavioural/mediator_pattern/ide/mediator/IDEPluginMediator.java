@@ -1,5 +1,4 @@
 package ide.mediator;
-
 import ide.plugins.*;
 
 public class IDEPluginMediator implements PluginMediator {

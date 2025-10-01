@@ -1,5 +1,4 @@
 package sessionManager.manager;
-
 import sessionManager.interfaces.TokenGenerator;
 import java.util.UUID;
 

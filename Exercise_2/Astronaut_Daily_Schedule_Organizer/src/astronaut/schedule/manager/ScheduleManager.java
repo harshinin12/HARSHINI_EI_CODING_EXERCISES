@@ -1,9 +1,7 @@
 package astronaut.schedule.manager;
-
 import astronaut.schedule.model.*;
 import astronaut.schedule.observer.ScheduleObserver;
 import astronaut.schedule.exception.InvalidTaskException;
-
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.*;

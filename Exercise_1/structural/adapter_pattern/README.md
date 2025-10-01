@@ -17,6 +17,10 @@ Instead of modifying the checkout system every time a new gateway is added, we c
 **Example Flow:**
 ```java
 CheckoutSystem checkout = new CheckoutSystem(
-    new PayPalAdapter(new PayPalGateway(), "user@example.com")
+    new PayPalAdapter(new PayPalGateway(), "harshinin78@gmail.com")
 );
 checkout.processOrder(100);
+```
+## Output Screenshot
+<img width="842" height="98" alt="image" src="https://github.com/user-attachments/assets/3b36c9bc-ef60-4622-9f78-7831ab4ba28c" />
+

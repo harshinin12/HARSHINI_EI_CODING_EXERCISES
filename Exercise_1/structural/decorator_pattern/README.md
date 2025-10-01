@@ -30,4 +30,6 @@ Instead of creating a separate class for every combination of features, we use d
 4. **Dynamic Composition:**  
    - You can layer decorators: e.g., new ProPlan(new GoPlan(new FreePlan())).
 
+## Output Screenshot
+<img width="1598" height="462" alt="image" src="https://github.com/user-attachments/assets/7b254e7c-38de-437f-b7dd-000e94c2dbab" />
 

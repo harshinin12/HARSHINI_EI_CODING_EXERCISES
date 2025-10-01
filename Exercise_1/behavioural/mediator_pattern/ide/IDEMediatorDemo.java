@@ -1,5 +1,4 @@
 package ide;
-
 import ide.mediator.*;
 import ide.plugins.*;
 

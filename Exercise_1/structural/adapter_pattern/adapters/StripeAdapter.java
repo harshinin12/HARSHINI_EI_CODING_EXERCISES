@@ -1,5 +1,4 @@
 package adapters;
-
 import gateways.StripeGateway;
 import interfaces.PaymentProcessor;
 import model.PaymentResponse;

@@ -32,17 +32,17 @@ Instead of creating a separate class for every combination of features, we use d
 
 **Key Demonstration in code**
 ```java
-        AI free = new FreePlan();
-        System.out.println("=== Free Plan ===");
-        free.accessFeatures();
+AI free = new FreePlan();
+System.out.println("=== Free Plan ===");
+free.accessFeatures();
 
-        System.out.println("\n=== Go Plan ===");
-        AI go = new GoPlan(new FreePlan());
-        go.accessFeatures();
+System.out.println("\n=== Go Plan ===");
+AI go = new GoPlan(new FreePlan());
+go.accessFeatures();
 
-        System.out.println("\n=== Plus Plan ===");
-        AI plus = new PlusPlan(new FreePlan());
-        plus.accessFeatures();
+System.out.println("\n=== Plus Plan ===");
+AI plus = new PlusPlan(new FreePlan());
+plus.accessFeatures();
 ```
 
 ## Output Screenshot

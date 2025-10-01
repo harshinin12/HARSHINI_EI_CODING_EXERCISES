@@ -1,6 +1,5 @@
 
 package factory;
-
 import exporter.*;
 
 public class SimpleExporterFactory implements ExporterFactory {

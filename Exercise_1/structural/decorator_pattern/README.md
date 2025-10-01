@@ -30,6 +30,21 @@ Instead of creating a separate class for every combination of features, we use d
 4. **Dynamic Composition:**  
    - You can layer decorators: e.g., new ProPlan(new GoPlan(new FreePlan())).
 
+**Key Demonstration in code**
+```java
+        AI free = new FreePlan();
+        System.out.println("=== Free Plan ===");
+        free.accessFeatures();
+
+        System.out.println("\n=== Go Plan ===");
+        AI go = new GoPlan(new FreePlan());
+        go.accessFeatures();
+
+        System.out.println("\n=== Plus Plan ===");
+        AI plus = new PlusPlan(new FreePlan());
+        plus.accessFeatures();
+```
+
 ## Output Screenshot
 <img width="1598" height="462" alt="image" src="https://github.com/user-attachments/assets/7b254e7c-38de-437f-b7dd-000e94c2dbab" />
 

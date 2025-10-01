@@ -1,9 +1,11 @@
 import adapters.PayPalAdapter;
 import adapters.RazorpayAdapter;
 import adapters.StripeAdapter;
+
 import gateways.PayPalGateway;
 import gateways.RazorpayGateway;
 import gateways.StripeGateway;
+
 import system.CheckoutSystem;
 
 public class Main {

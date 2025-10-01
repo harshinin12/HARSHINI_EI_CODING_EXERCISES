@@ -16,3 +16,7 @@ Instead of having each plugin directly communicate with every other plugin, a ce
 - **Easily Extensible**: Adding a new plugin requires only registering it with the mediator without changing other plugins.
 
 This example clearly demonstrates the Mediator pattern in a practical, real-world scenario where multiple components interact in a coordinated manner.
+
+## Output Screenshot
+<img width="547" height="237" alt="image" src="https://github.com/user-attachments/assets/bba896d5-d50f-4634-94a3-709693def6c4" />
+

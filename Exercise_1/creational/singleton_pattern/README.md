@@ -26,6 +26,7 @@
 GlobalSessionManager sessionManager1 = GlobalSessionManager.getInstance(tokenGen);
 GlobalSessionManager sessionManager2 = GlobalSessionManager.getInstance(tokenGen);
 
+
 System.out.println("Both instances same? " + (sessionManager1 == sessionManager2)); - true
 
 ###Output screenshot

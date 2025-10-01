@@ -15,4 +15,15 @@ When a user creates a post, all subscribed observers are notified instantly. Obs
 - Observers can be added or removed at runtime without altering the subject’s code.  
 - This matches the core definition of the Observer Pattern, where dependents react to state changes in a subject.  
 
-This project demonstrates how the Observer Pattern decouples the subject (post creation) from its observers (notification services), ensuring scalability and flexibility.
+**Key Demonstartion in code**
+```java
+UserPost post = new UserPost();
+post.registerObserver(new MobileApp());
+post.registerObserver(new EmailService());
+post.registerObserver(new AnalyticsModule());
+
+post.createPost("Observer Pattern implemented successfully!");
+```
+## Output Screenshot
+<img width="817" height="212" alt="image" src="https://github.com/user-attachments/assets/013ee036-60ad-453e-b59d-c2edb617ce0c" />
+

@@ -1,6 +1,4 @@
 package sessionManager.manager;
-
-
 import sessionManager.interfaces.SessionHandler;
 import sessionManager.interfaces.TokenGenerator;
 import java.util.concurrent.ConcurrentHashMap;

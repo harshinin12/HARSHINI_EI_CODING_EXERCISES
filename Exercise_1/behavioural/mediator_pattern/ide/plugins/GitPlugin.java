@@ -1,5 +1,4 @@
 package ide.plugins;
-
 import ide.mediator.PluginMediator;
 
 public class GitPlugin extends Plugin {

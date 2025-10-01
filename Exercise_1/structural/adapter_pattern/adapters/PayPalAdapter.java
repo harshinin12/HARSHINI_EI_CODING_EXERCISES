@@ -1,5 +1,4 @@
 package adapters;
-
 import gateways.PayPalGateway;
 import interfaces.PaymentProcessor;
 import model.PaymentResponse;

@@ -59,6 +59,6 @@ A console-based CRUD application to help astronauts organize their daily tasks w
 - **Language:** Java  
 - **Paradigms:** OOP, SOLID principles, Defensive Programming  
 - **Patterns:** Creational, Structural, Behavioral  
-- **Execution:** Console-based applications (no UI frameworks)  
+- **Execution:** Console-based applications 
 
 ---

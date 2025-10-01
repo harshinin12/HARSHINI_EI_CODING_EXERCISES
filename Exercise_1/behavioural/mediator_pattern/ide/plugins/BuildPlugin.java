@@ -1,5 +1,4 @@
 package ide.plugins;
-
 import ide.mediator.PluginMediator;
 
 public class BuildPlugin extends Plugin {

@@ -1,5 +1,4 @@
 package src.decorators;
-
 import src.component.AI;
 
 public abstract class Decorator implements AI {

@@ -27,3 +27,8 @@ Client: Main (only depends on ExporterFactory, not on concrete exporters)
 
 This follows the Open/Closed Principle (SOLID): we can add new exporters without modifying existing code.
 It also reduces tight coupling, since the client does not know about specific exporter implementations.
+
+### Output screenshot
+<img width="601" height="160" alt="image" src="https://github.com/user-attachments/assets/96e59926-d6f9-46ce-a7b7-39d9c695a732" />
+
+### 

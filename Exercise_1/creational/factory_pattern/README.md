@@ -30,5 +30,3 @@ It also reduces tight coupling, since the client does not know about specific ex
 
 ### Output screenshot
 <img width="601" height="160" alt="image" src="https://github.com/user-attachments/assets/96e59926-d6f9-46ce-a7b7-39d9c695a732" />
-
-### 

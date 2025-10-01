@@ -1,5 +1,4 @@
 package model;
-
 public class PaymentResponse {
     private boolean success;
     private String message;

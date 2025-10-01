@@ -1,5 +1,4 @@
 package src.client;
-
 import src.component.FreePlan;
 import src.component.AI;
 import src.decorators.GoPlan;

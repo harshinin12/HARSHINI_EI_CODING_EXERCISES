@@ -25,10 +25,8 @@
 ```java
 GlobalSessionManager sessionManager1 = GlobalSessionManager.getInstance(tokenGen);
 GlobalSessionManager sessionManager2 = GlobalSessionManager.getInstance(tokenGen);
-
-
 System.out.println("Both instances same? " + (sessionManager1 == sessionManager2)); - true
 
-###Output screenshot
+## Output screenshot
 <img width="775" height="183" alt="image" src="https://github.com/user-attachments/assets/8deff0ea-b425-4d7f-b575-25db1c554767" />
 

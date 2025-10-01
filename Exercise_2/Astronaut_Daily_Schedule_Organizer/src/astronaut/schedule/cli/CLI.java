@@ -3,7 +3,6 @@ package astronaut.schedule.cli;
 import astronaut.schedule.factory.TaskFactory;
 import astronaut.schedule.manager.ScheduleManager;
 import astronaut.schedule.model.*;
-
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.List;

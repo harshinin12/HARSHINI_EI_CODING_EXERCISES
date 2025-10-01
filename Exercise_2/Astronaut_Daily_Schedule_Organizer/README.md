@@ -5,7 +5,7 @@ Astronauts on space missions must follow highly structured schedules with zero c
 This console-based application helps astronauts organize their daily tasks with descriptions, timings, and priorities.  
 It ensures no overlapping tasks, supports rescheduling, and provides a clear summary of daily activities.  
 
-## Given Functionalities  
+## Functionalities  
 
 ### Mandatory  
 - **Add Task** – Add a new task with description, start time, end time, and priority.  
@@ -19,7 +19,7 @@ It ensures no overlapping tasks, supports rescheduling, and provides a clear sum
 - **Mark Task as Completed** – Track finished tasks.  
 - **View Tasks by Priority** – Filter tasks by LOW, MEDIUM, or HIGH priority.  
 
-## Additional Functionalities Added  
+## Additional Functionalities Implemented
 - **Conflict Resolution Suggestion** – If a conflict occurs, system suggests the next available slot and asks the user whether to schedule automatically.  
 - **Daily Summary Report** – Displays total tasks, completed vs pending, and breakdown by priority (with descriptions).  
 - **Dynamic Rescheduling** – Tasks can be edited without restarting the program.  

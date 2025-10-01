@@ -1,5 +1,3 @@
-
-
 import factory.ExporterFactory;
 import factory.SimpleExporterFactory;
 import exporter.DocumentExporter;

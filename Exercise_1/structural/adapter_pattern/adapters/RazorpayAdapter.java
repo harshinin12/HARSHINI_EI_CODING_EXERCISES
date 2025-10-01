@@ -1,5 +1,4 @@
 package adapters;
-
 import gateways.RazorpayGateway;
 import interfaces.PaymentProcessor;
 import model.PaymentResponse;

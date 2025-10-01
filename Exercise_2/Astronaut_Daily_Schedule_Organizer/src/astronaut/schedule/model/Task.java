@@ -1,5 +1,4 @@
 package astronaut.schedule.model;
-
 import java.time.LocalTime;
 
 public class Task {
